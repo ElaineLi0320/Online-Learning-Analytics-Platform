@@ -1,0 +1,85 @@
+.create-course-page {
+  background-color: var(--color-light);
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.create-course-page h2 {
+  font-size: 1.75rem;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 0.5rem;
+}
+
+.create-course-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.create-course-form input,
+.create-course-form textarea,
+.create-course-form select {
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-muted);
+  border-radius: 6px;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  transition: border 0.2s ease;
+}
+
+.create-course-form input:focus,
+.create-course-form textarea:focus,
+.create-course-form select:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.create-course-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.create-course-form select {
+  background-color: var(--color-light);
+}
+
+.create-course-form button {
+  align-self: flex-start;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.create-course-form button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.form-message {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.form-message.success {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.form-message.error {
+  background-color: var(--color-danger);
+  color: white;
+}

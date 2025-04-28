@@ -1,4 +1,4 @@
-# 📚 5200 Online Learning Platform
+# 📚 Online Learning Platform
 
 This project is a web-based **online learning system** powered by **MongoDB**. It demonstrates document-oriented database modeling, RESTful API design, and user-role based access control. Built for CS5200 Practicum 2.
 
